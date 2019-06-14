@@ -27,7 +27,7 @@ const getMocks = () => {
   };
 };
 
-describe('Test putFilesAttributes', () => {
+describe('Test putUsers', () => {
 
   test('it should update the user', async () => {
     const microservice = require('./index');
