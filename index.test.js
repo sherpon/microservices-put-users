@@ -53,7 +53,7 @@ describe('Test putFilesAttributes', () => {
     mocks.req.method = 'POST';
     mocks.req.body = parameters.body;
     mocks.req.query = parameters.query;
-    await microservice.putFilesAttributes(mocks.req, mocks.res);
+    await microservice.putUsers(mocks.req, mocks.res);
     expect(mocks.res.status.mock.calls[0][0]).toBe(204);
     expect(mocks.res.end.mock.calls.length).toBe(1);
   });

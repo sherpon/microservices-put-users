@@ -71,7 +71,7 @@ const getTokenStep = async (req, res) => {
  * @param {Object} res Cloud Function response context.
  *                     More info: https://expressjs.com/en/api.html#res
  */
-exports.putFilesAttributes = async (req, res) => {
+exports.putUsers = async (req, res) => {
   // const token = req.userToken;
   // const userId = req.query.userId;
   // const websiteId = req.query.websiteId;
