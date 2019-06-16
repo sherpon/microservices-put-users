@@ -84,7 +84,7 @@ exports.putUsers = async (req, res) => {
 
   if (req.method === 'OPTIONS') {
     // Send response to OPTIONS requests
-    res.set('Access-Control-Allow-Methods', 'POST');
+    res.set('Access-Control-Allow-Methods', 'PUT');
     res.set('Access-Control-Allow-Headers', 'Authorization, Content-Type');
     res.set('Access-Control-Max-Age', '3600');
     res.status(204)
